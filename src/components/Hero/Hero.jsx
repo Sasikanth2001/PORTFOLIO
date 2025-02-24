@@ -1,39 +1,33 @@
 import React from "react";
+
 import styles from "./Hero.module.css";
 import Type from "../../features/Type";
 import { RxPinBottom } from "react-icons/rx";
-const profileImage = getImageUrl("hero/profileImage.png"); // Get correct URL
-
-
-// ✅ Move the PDF and image to "public/assets/hero/" and use direct paths
-const resumePDF = "assets/hero/Sasikanth.pdf";
-//const profileImage = "assets/hero/profileImage.png";  // ✅ Correct path for image
 
 export const Hero = () => {
   return (
+
     <section className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Sasikanth</h1>
         <p className={styles.description}>
           <Type />
         </p>
-
-        {/* ✅ Correct way to link and download the PDF */}
-        <a href={resumePDF} download="Full-Stack-Developer-Sasikanth" className={styles.contactBtn}>
-          <RxPinBottom /> Resume
+     
+        <a href='https://drive.google.com/uc?export=view&id=1I0TWCPmN__vfBfWBU8vY0BMXOc-qA8WU' className={styles.contactBtn} target="_blank"
+          download='Sasikanth' >
+          <RxPinBottom />  Resume
         </a>
-
-      </div>
-
-      {/* ✅ Using the image stored in "public/assets/hero/" */}
-      <img
-        src={profileImage}
-        alt="Image of Sasikanth"
-        className={styles.heroImg}
-      />
       
-      <div className={styles.topBlur} />
+          </div>
+          <img
+              src="https://lh3.googleusercontent.com/d/13mKwn8WrDwewDahSRVjbVCu6O4FT4O0V=w1000-h1000"
+              alt="My image"
+              className={styles.heroImg}
+          />
+     <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
+
     </section>
   );
 };
