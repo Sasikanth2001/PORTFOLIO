@@ -21,7 +21,7 @@ export const Hero = () => {
       
           </div>
           <img
-              src='https://drive.google.com/uc?export=view&id=13mKwn8WrDwewDahSRVjbVCu6O4FT4O0V'
+              src='https://img.freepik.com/free-vector/illustrator-designer-man-holding-digital-tablet_107791-12062.jpg?size=626&ext=jpg&ga=GA1.1.1951385704.1701609387&semt=ais'
               alt="My image"
               className={styles.heroImg}
           />
