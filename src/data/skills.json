@@ -1,0 +1,66 @@
+[
+  {
+    "title": "C",
+    "imageSrc": "skills/letter-c.png"
+  },
+  {
+    "title": "C++",
+    "imageSrc": "skills/c++.png"
+  },
+  {
+    "title": "C#",
+    "imageSrc": "skills/c-sharp.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "Javascript",
+    "imageSrc": "skills/javascript.png"
+  },
+  {
+    "title": "Bootstrap",
+    "imageSrc": "skills/bootstrap.png"
+  },
+  {
+    "title": "Tailwind",
+    "imageSrc": "skills/tailwind.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Node.js",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "Express.js",
+    "imageSrc": "skills/express.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },
+ {
+    "title": "Github",
+    "imageSrc": "skills/github.svg"
+  },
+  {
+    
+    "title": "Postman",
+    "imageSrc": "skills/postman.png"
+  },
+  {
+    
+    "title": "Netlify",
+    "imageSrc": "skills/netlify.svg"
+  }
+
+  
+]

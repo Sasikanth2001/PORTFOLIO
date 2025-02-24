@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* scroll bar */
+
+body {
+  --sb-track-color: #232E33;
+  --sb-thumb-color: #19376d;
+  --sb-size: 10px;
+
+  scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 10px;
+
+}
+
+/* footer */
+.footer {
+  background-color: rgb(1, 6, 36);
+  bottom: 0 !important;
+  padding-top: 10px !important;
+  padding-bottom: 8px !important;
+}
+
+.footer-copywright {
+  display: flex;
+  text-align: center !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-copywright span {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.footer-body {
+  z-index: 1;
+  text-align: center !important;
+}
+
+@media (max-width: 767px) {
+  .footer-copywright {
+    text-align: center !important;
+  }
+
+  .footer-body {
+    text-align: center !important;
+  }
+}
+
+.footer h3 {
+  font-size: 1em;
+  color: white !important;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+
+.footer-icons {
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+  padding: 0 !important;
+
+}
+
+.blockquote-footer {
+  color: #a588c0 !important;
+}
+
+.contact-form {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 80vh;
+  margin-top: 4rem;
+  /* scroll */
+  padding-top: 3rem;
+}
+
+.c-left {
+  text-align: center !important;
+  padding-top: 25px;
+  color: white !important;
+}
+
+.c-right {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+}
+
+.c-right>form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+
+}
+
+.c-right .user {
+  width: 24rem;
+  height: 3rem;
+  padding: 0.3em;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-size: 19px;
+  color:black;
+}
+
+.c-right .user:hover {
+  border: 2px solid white;
+}
+
+input {
+ 
+  color:black
+}
+
+textarea {
+  height: 5rem !important;
+ 
+}
+
+.done {
+  font-size: 19px;
+  color: green;
+}
+
+.not-done {
+  font-size: 19px;
+  color: red;
+}
+
+.c-blur1 {
+  top: 1rem;
+  left: 8rem;
+}
+
+@media screen and (max-width: 480px) {
+  .contact-form {
+    padding: 0;
+    flex-direction: column;
+    gap: 5rem;
+    height: 40rem;
+  }
+
+  .c-right .user {
+    width: 16rem;
+  }
+
+}
+
+
+
+/* -----------------------social connect---------------- */
+.contact-section {
+  position: relative;
+  padding-bottom: 70px !important;
+  padding-top: 70px !important;
+  
+}
+
+.contact-text{
+  color: white
+}
+
+.contact-social-links {
+  justify-content: center !important;
+  padding-top: 15px !important;
+  display: inline-block !important;
+  position: relative !important;
+  padding-inline-start: 0 !important;
+}
+
+.contact-social-icons {
+  position: relative !important;
+  display: inline-block !important;
+  width: 70px !important;
+  height: 70px !important;
+  text-align: center !important;
+  font-size: 2em !important;
+  line-height: 2em !important;
+  background: rgba(245, 243, 243, 0.972) !important;
+  border-radius: 50% !important;
+ margin-right: 20px;  
+}
+ 
+@media screen and (max-width:600px){
+  .contact-social-icons {
+     margin-top: 10px;
+  }
+}
+
+
+
+#contact{
+  margin-top:100px;
+  border-radius: 50px;
+  background-color: black;
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Diary application",
+    "imageSrc": "projects/diaryapp.png",
+    "description": "This app is developed with the aim of enhancing the users' ability to freely write and express their thoughts and emotions on a digital platform. Users can effortlessly create, view, edit, or delete their writings.",
+    "skills": ["React", "Express", "Node","MongoDB","Bootstrap"],
+    "demo": "https://diary-app-fsd1.netlify.app/",
+    "source": "https://github.com/Sasikanth2001/Diary"
+  },
+  {
+    "title": "Chat Application",
+    "imageSrc": "projects/chat_app.png",
+    "description": "The Chat Application enables users to register, log in, and communicate in real time. It features a secure authentication system for safe interactions. With an intuitive interface, users can seamlessly connect and chat with others....",
+    "skills": ["React", "Node", "MongoDB","socket.io"],
+    "demo": "https://talk-a-tive-7fgq.onrender.com/",
+    "source": "https://github.com/Sasikanth2001/chatapp1"
+  },
+  {
+    "title": "Crud",
+    "imageSrc": "projects/crud1.png",
+    "description": "This application allows users to enter and store their name, email, and phone number in a database. It supports full CRUD (Create, Read, Update, Delete) functionality, enabling users to manage their data effortlessly.",
+    "skills": ["React", "Express", "Node", "MongoDB","Bootstrap"],
+    "demo": "https://react-axios-using-crud.netlify.app/",
+    "source": "https://github.com/Sasikanth2001/React-9"
+  },
+  {
+    "title": "Student-Mentor Allocation",
+    "imageSrc": "projects/student_mentor.png",
+    "description": "This application manages student and mentor allocation with sections for Home, Student, and Mentor, enabling easy student creation, mentor assignment, and tracking.",
+    "skills": ["React","Bootstrap","HTML","CSS"],
+    "demo": "https://dainty-dieffenbachia-8f124d.netlify.app/",
+    "source": "https://github.com/Sasikanth2001/Node3"
+  },
+  {
+    "title": "React Blog App",
+    "imageSrc": "projects/React_blog1.png",
+    "description": "The React Blog Application categorizes articles into Data Science, Full Stack Development, Cyber Security, and Career Growth, offering a seamless reading experience to keep users informed.",
+    "skills": ["React","Bootstrap","HTML","CSS"],
+    "demo": "https://netlify-react-router.netlify.app/",
+    "source": "https://github.com/Sasikanth2001/React-6/"
+  }
+ 
+]
