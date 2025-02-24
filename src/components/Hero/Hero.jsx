@@ -3,8 +3,9 @@ import styles from "./Hero.module.css";
 import Type from "../../features/Type";
 import { RxPinBottom } from "react-icons/rx";
 
+
 // ✅ Move the PDF and image to "public/assets/hero/" and use direct paths
-const resumePDF = "/assets/hero/full stack developer_Sasikanth.pdf";
+const resumePDF = "/assets/hero/Sasikanth.pdf";
 const profileImage = "/assets/hero/profileImage.png";  // ✅ Correct path for image
 
 export const Hero = () => {
@@ -26,7 +27,7 @@ export const Hero = () => {
       {/* ✅ Using the image stored in "public/assets/hero/" */}
       <img
         src={profileImage}
-        alt="Hero image of Sasikanth"
+        alt="Image of Sasikanth"
         className={styles.heroImg}
       />
       
